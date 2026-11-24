@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#fff2f7">
+<title>راز نی‌نی خانواده 🧸</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+:root{--pink:#eaa0bd;--pink2:#fff0f6;--rose:#bd6489;--blue:#9bc5e9;--blue2:#eef7ff;--gold:#c9a66b;--ink:#5d4b5a;--muted:#927f8e;--white:#fffdfd;--shadow:0 16px 42px #9d77931c}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;min-height:100vh;font-family:Vazirmatn,Tahoma,sans-serif;color:var(--ink);background:radial-gradient(circle at 10% 8%,#ffe4ef 0,transparent 27%),radial-gradient(circle at 92% 22%,#dfefff 0,transparent 28%),linear-gradient(145deg,#fff9f8,#f7f8ff 55%,#fff8ed);overflow-x:hidden}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.23;background-image:radial-gradient(#d8a7bd 1px,transparent 1px);background-size:22px 22px}
+.float{position:fixed;pointer-events:none;opacity:.25;font-size:30px;animation:drift 7s ease-in-out infinite;z-index:0}.f1{top:12%;left:3%}.f2{top:52%;right:2%;animation-delay:1s}.f3{bottom:8%;left:5%;animation-delay:2s}@keyframes drift{50%{transform:translateY(-13px) rotate(7deg)}}
+.wrap{position:relative;z-index:1;width:min(760px,92%);margin:auto;padding:18px 0 48px}
+header{text-align:center;padding:16px 4px 8px}.brand{display:inline-flex;align-items:center;gap:7px;padding:7px 15px;border:1px solid #f2d7e3;border-radius:40px;background:#ffffffb8;color:var(--rose);font-size:12px;box-shadow:0 5px 20px #c28ca21a}
+h1{font-size:clamp(31px,8vw,51px);line-height:1.3;margin:12px 0 4px;font-weight:900;letter-spacing:-1px;background:linear-gradient(90deg,#bd6489,#8daed2,#bd6489);-webkit-background-clip:text;background-clip:text;color:transparent}
+.subtitle{margin:0;color:var(--muted);font-size:13px}
+.hero{position:relative;overflow:hidden;text-align:center;margin:18px 0;background:linear-gradient(115deg,#ffe4efed,#e6f3ffed);border:1px solid #fff;border-radius:30px;padding:23px 16px;box-shadow:var(--shadow)}
+.hero:before,.hero:after{content:"✦";position:absolute;color:#c5a46f;font-size:23px}.hero:before{top:14px;right:18px}.hero:after{bottom:13px;left:20px}
+.toys{font-size:clamp(30px,8vw,48px);letter-spacing:5px;filter:drop-shadow(0 5px 4px #98718a22)}
+.hero h2{font-size:20px;color:#75566c;margin:9px 0 5px}.hero p{font-size:13px;line-height:2;margin:0;color:#806e7c}
+.progress{display:flex;gap:6px;margin:16px 0 8px}.progress span{height:5px;flex:1;border-radius:10px;background:#eadfe7}.progress span.done{background:linear-gradient(90deg,var(--pink),var(--blue))}
+.card{background:#ffffffdf;border:1px solid #fff;border-radius:25px;padding:19px;margin:14px 0;box-shadow:var(--shadow);backdrop-filter:blur(10px)}
+.card h3{font-size:17px;color:#78586f;margin:0 0 12px}
+.kicker{font-size:11px;color:var(--rose);font-weight:800;letter-spacing:.2px}
+label{display:block;font-size:13px;font-weight:800;margin:13px 0 7px}
+input{width:100%;border:1.5px solid #efdae5;background:#fffafd;border-radius:14px;padding:13px 14px;font:inherit;font-size:14px;color:var(--ink);outline:none}
+input:focus{border-color:#df9db8;box-shadow:0 0 0 3px #f9e1eb}
+.qbox{background:linear-gradient(130deg,#fff7fb,#f4f9ff);border:1px solid #f3e5ed;border-radius:19px;padding:15px;margin:12px 0}
+.qtop{display:flex;align-items:center;gap:10px}.qemoji{font-size:27px}.qtitle{font-weight:800;font-size:14px;line-height:1.8}.qsub{font-size:11px;color:var(--muted);margin-top:2px}
+.options{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:12px}
+.opt{position:relative;border:1.5px solid #eee1e9;background:#fff;border-radius:14px;padding:11px 9px;color:#705d6b;font:inherit;font-size:12px;line-height:1.7;min-height:48px;transition:transform .18s,border .18s,background .18s}
+.opt:active{transform:scale(.97)}.opt.selected{border-color:#d68eae;background:#fff0f6;color:#a64f78;font-weight:800}
+.opt.blue.selected{border-color:#8bb6df;background:#eef7ff;color:#507fa9}
+.escape-zone{position:relative;min-height:62px;margin-top:10px;border:1px dashed #e5c5d5;border-radius:14px;background:#fff9fc;overflow:hidden;padding:6px}
+.escape-label{font-size:10px;color:#a58b9a;margin:0 5px 4px}
+.escape{position:absolute;top:24px;right:10px;max-width:70%;padding:8px 12px;border:1px solid #e6c8d8;border-radius:12px;background:#fff;color:#94617c;font:inherit;font-size:11px;transition:all .18s;z-index:2}
+.choice-grid{display:grid;grid-template-columns:1fr 1fr;gap:11px}
+.bigchoice{border:2px solid #f0e1e9;background:#fff;border-radius:19px;padding:15px 8px;text-align:center;color:var(--ink);font:inherit;cursor:pointer;transition:.18s}
+.bigchoice .emoji{display:block;font-size:37px;margin-bottom:5px}.bigchoice strong{font-size:15px}.bigchoice small{display:block;color:#9a8995;font-size:11px;margin-top:3px}
+.bigchoice.girl.selected{border-color:#e69aba;background:#fff0f6;transform:translateY(-2px)}.bigchoice.boy.selected{border-color:#8dbbe6;background:#eff7ff;transform:translateY(-2px)}
+.btn{width:100%;border:0;border-radius:16px;padding:14px;margin-top:14px;background:linear-gradient(100deg,#e58fb2,#9fc4e9);color:#fff;font-weight:900;font-size:15px;box-shadow:0 8px 18px #c68cae38;font-family:inherit}
+.btn:disabled{opacity:.55}.btn.secondary{background:#fff;color:#93647d;border:1px solid #efd8e4;box-shadow:none}
+.toast{display:none;padding:11px;border-radius:13px;background:#effaf1;color:#477c55;text-align:center;font-size:12px;margin-top:10px}
+.stats{display:grid;grid-template-columns:1fr 1fr;gap:9px}.stat{padding:13px;border-radius:17px;text-align:center;background:#fff1f7}.stat.blue{background:#eff7ff}.stat b{display:block;font-size:26px;color:#bd668e}.stat.blue b{color:#6d9bc8}.stat span{font-size:11px}
+.bar{height:12px;background:#eaf0f7;border-radius:20px;overflow:hidden;display:flex;direction:ltr;margin:13px 0 6px}.bar .pink{background:#eda9c5}.bar .blue{background:#9dc8ef}
+.legend{display:flex;justify-content:space-between;font-size:11px;color:#867586}
+.ranking{display:grid;gap:8px}.rank{display:flex;align-items:center;gap:10px;background:#fff8fb;border-radius:13px;padding:10px 12px}.medal{font-size:20px}.rankname{flex:1;font-size:12px;font-weight:700}.rankpoints{font-size:11px;color:#a55f82;font-weight:900}
+.empty{text-align:center;color:#9c8998;font-size:12px;padding:15px}
+.result{display:none;text-align:center;border-radius:18px;padding:17px;background:linear-gradient(120deg,#fff0f6,#eef7ff);margin-top:12px}.result .big{font-size:38px}.result strong{display:block;color:#9e5e7d;font-size:16px;margin:4px}
+footer{text-align:center;color:#a08f9d;font-size:11px;padding:18px 0}
+.smallprint{font-size:10px;color:#a18f9d;line-height:1.8;text-align:center;margin:10px 0 0}
+@media(max-width:420px){.card{padding:15px}.hero{padding:20px 12px}.options{gap:7px}.opt{font-size:11px;padding:9px 6px}}
+
+textarea{width:100%;min-height:88px;resize:vertical;border:1.5px solid #efdae5;background:#fffafd;border-radius:14px;padding:13px 14px;font:inherit;font-size:13px;color:var(--ink);outline:none}
+textarea:focus{border-color:#df9db8;box-shadow:0 0 0 3px #f9e1eb}
+.mini-options{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin-top:10px}
+.mini-opt{border:1.5px solid #eee1e9;background:#fff;border-radius:13px;padding:10px 8px;color:#705d6b;font:inherit;font-size:12px;line-height:1.7}
+.mini-opt.selected{border-color:#d68eae;background:#fff0f6;color:#a64f78;font-weight:800}
+.wheel-wrap{display:flex;align-items:center;flex-direction:column;gap:10px;padding:8px}
+.wheel{width:190px;height:190px;border-radius:50%;border:7px solid #fff;box-shadow:0 8px 25px #9b779533;background:conic-gradient(#f6c8d9 0 45deg,#d8eaff 45deg 90deg,#f8e7c8 90deg 135deg,#e9d9f4 135deg 180deg,#d8eee3 180deg 225deg,#f6d9c7 225deg 270deg,#d8eaff 270deg 315deg,#f6c8d9 315deg 360deg);display:grid;place-items:center;position:relative;transition:transform 3s cubic-bezier(.12,.75,.12,1)}
+.wheel:after{content:"🎁";display:grid;place-items:center;width:48px;height:48px;background:#fff;border:3px solid #fff;border-radius:50%;font-size:23px;box-shadow:0 2px 10px #9b779933}
+.wheel.spinning{transform:rotate(1440deg)}
+.wheel-pointer{font-size:24px;margin-bottom:-18px;z-index:2}
+.wheel-result{min-height:28px;text-align:center;font-weight:800;color:#a45d80;font-size:13px}
+.reveal-panel{display:none;text-align:center;padding:22px 14px;border-radius:22px;background:linear-gradient(125deg,#fff0f6,#edf7ff);border:1px solid #fff}
+.reveal-panel .reveal-emoji{font-size:54px}
+.reveal-panel h2{font-size:23px;color:#a65e80;margin:8px 0}
+.reveal-panel p{font-size:13px;line-height:2;color:#806e7c}
+@keyframes confetti{0%{transform:translateY(-20px) rotate(0);opacity:1}100%{transform:translateY(170px) rotate(400deg);opacity:0}}
+.confetti{display:inline-block;animation:confetti 1.7s ease-out infinite alternate}
+
+</style>
+</head>
+<body>
+<div class="float f1">☁️</div><div class="float f2">🧸</div><div class="float f3">🍼</div>
+<main class="wrap">
+<header>
+ <span class="brand">✧ یک سورپرایز کوچولو در راه است ✧</span>
+ <h1>راز نی‌نی خانواده</h1>
+ <p class="subtitle">پرونده محرمانه شماره ۰۰۲ · عملیات حدس کوچولوها</p>
+</header>
+<section class="hero">
+ <div class="toys">🧸 🍼 🎀 🩵 🎈</div>
+ <h2>سلام خانواده‌ی قشنگم! منم، نی‌نیِ توی راه... 💗</h2>
+ <p>هنوز خودمم نمی‌دونم قراره پرنسس باشم یا شیطون بلا!<br>چندتا سؤال دارم؛ جواب بدین ببینم چقدر منو می‌شناسین!</p>
+</section>
+
+<section class="card" id="play">
+ <div class="kicker">مرحله اول · آشنایی با شرکت‌کننده</div>
+ <h3>👋 اول خودتو معرفی کن!</h3>
+ <label for="guest">با چه اسمی صدات کنم؟</label>
+ <input id="guest" maxlength="35" placeholder="مثلاً خاله نرگس، عمو مهدی..." autocomplete="name">
+ <label for="babyname">یه اسم خوشگل هم برای من پیشنهاد بده (اختیاری)</label>
+ <input id="babyname" maxlength="35" placeholder="اسم پیشنهادی تو...">
+</section>
+
+<section class="card">
+ <div class="kicker">مرحله دوم · بازجویی از نی‌نی 😎</div>
+ <h3>💬 سؤال‌های محرمانه من</h3>
+ <div class="progress" id="progress"><span></span><span></span><span></span><span></span><span></span></div>
+ <div class="qbox">
+  <div class="qtop"><span class="qemoji">🍟</span><div><div class="qtitle">۱. مامانم نصفه‌شب هوس چی می‌کنه؟</div><div class="qsub">لطفاً با دقت جواب بده، من گرسنه‌ام!</div></div></div>
+  <div class="options" data-q="snack">
+   <button class="opt" data-v="ترشی و لواشک">🍋 ترشی و لواشک</button><button class="opt" data-v="شکلات و بستنی">🍫 شکلات و بستنی</button>
+   <button class="opt" data-v="قرمه‌سبزی ساعت ۳ صبح">🍲 قرمه‌سبزی ساعت ۳ صبح</button><button class="opt" data-v="هرچی دم دستش باشه">🤭 هرچی دم دستش باشه</button>
+  </div>
+ </div>
+ <div class="qbox">
+  <div class="qtop"><span class="qemoji">🕵️</span><div><div class="qtitle">۲. امیر ارسلان قراره چه جور داداشی باشه؟</div><div class="qsub">من باید از الان برای آینده آماده بشم!</div></div></div>
+  <div class="options" data-q="brother">
+   <button class="opt" data-v="محافظ و مهربون">🛡️ محافظ و مهربون</button><button class="opt" data-v="شیطون و همدست">😈 شیطون و همدست</button>
+   <button class="opt" data-v="معلم تکالیف و مشق">📚 معلم تکالیف و مشق</button><button class="opt" data-v="رئیس اسباب‌بازی‌ها">👑 رئیس اسباب‌بازی‌ها</button>
+  </div>
+ </div>
+ <div class="qbox">
+  <div class="qtop"><span class="qemoji">🎭</span><div><div class="qtitle">۳. فکر می‌کنی من بیشتر شبیه کی می‌شم؟</div><div class="qsub">این سؤال ممکنه باعث بحث خانوادگی بشه 😂</div></div></div>
+  <div class="options" data-q="look">
+   <button class="opt" data-v="مامان">💗 مامان</button><button class="opt" data-v="بابا">🩵 بابا</button>
+   <button class="opt" data-v="امیر ارسلان">🧸 امیر ارسلان</button><button class="opt" data-v="ترکیب همه">✨ ترکیب همه</button>
+  </div>
+ </div>
+ <div class="qbox">
+  <div class="qtop"><span class="qemoji">🌙</span><div><div class="qtitle">۴. من بیشتر چه ساعتی خونه رو بیدار نگه می‌دارم؟</div><div class="qsub">قول نمی‌دم شب‌ها آروم باشم!</div></div></div>
+  <div class="options" data-q="time">
+   <button class="opt" data-v="سحرخیز و پرانرژی">🌞 سحرخیز و پرانرژی</button><button class="opt" data-v="وسط روز">☀️ وسط روز</button>
+   <button class="opt" data-v="نیمه‌شب و وقت شیطنت">🌚 نیمه‌شب و وقت شیطنت</button><button class="opt" data-v="هر وقت دلم بخواد">😎 هر وقت دلم بخواد</button>
+  </div>
+ </div>
+ <div class="qbox">
+  <div class="qtop"><span class="qemoji">🤫</span><div><div class="qtitle">۵. یه سؤال خیلی مهم: راز جنسیت منو می‌دونی؟</div><div class="qsub">بین خودمون بمونه‌ها!</div></div></div>
+  <div class="options" data-q="secret">
+   <button class="opt" data-v="آره، حس ششم دارم">🔮 آره، حس ششم دارم</button><button class="opt" data-v="نه، فقط حدس می‌زنم">🙈 نه، فقط حدس می‌زنم</button>
+   <button class="opt" data-v="از قیافه مامان معلومه">🧐 از قیافه مامان معلومه</button><button class="opt" data-v="پرونده محرمانه است">🕶️ پرونده محرمانه است</button>
+  </div>
+  <div class="escape-zone">
+   <p class="escape-label">یه گزینه‌ی لجباز هم اینجاست... اگه تونستی بگیرش! 👀</p>
+   <button class="escape" id="runner1" type="button">من هیچی لو نمی‌دم! 🏃</button>
+  </div>
+ </div>
+ <p class="smallprint">جواب‌ها فقط برای خنده و خاطره‌سازی خانوادگی‌اند؛ هیچ‌کدوم جنسیت نی‌نی رو پیش‌بینی علمی نمی‌کنن.</p>
+</section>
+
+<section class="card">
+ <div class="kicker">مرحله سوم · حدس نهایی</div>
+ <h3>🔐 حالا راز بزرگ رو حدس بزن!</h3>
+ <div class="choice-grid">
+  <button class="bigchoice girl" data-guess="دختر"><span class="emoji">👶🏻🎀</span><strong>یه دختر ناز!</strong><small>پرنسس کوچولوی خانواده</small></button>
+  <button class="bigchoice boy" data-guess="پسر"><span class="emoji">👶🏻🩵</span><strong>یه پسر شیرین!</strong><small>شیطون بلا و دوست‌داشتنی</small></button>
+ </div>
+ <div class="escape-zone" style="margin-top:12px">
+  <p class="escape-label">فکر کردی گزینه سوم هم داریم؟ 😜</p>
+  <button class="escape" id="runner2" type="button">من یه اژدهای کوچولوم! 🐉</button>
+ </div>
+ <button class="btn" id="submit">ثبت پرونده و ارسال حدس من 🎉</button>
+ <div class="toast" id="toast"></div>
+ <div class="result" id="result"><div class="big">💌</div><strong>پیامت به دستم رسید!</strong><span>مرسی که توی این بازی شرکت کردی. منتظر خبرهای کوچولوی من باش! 🍼</span></div>
+</section>
+
+
+<section class="card">
+ <div class="kicker">مرحله چهارم · حدس‌های ریز و بامزه</div>
+ <h3>👣 رد پای کوچولو</h3>
+ <p class="smallprint">به نظرت نی‌نی چه شکلی می‌شه؟ این‌ها فقط حدس‌های سرگرم‌کننده‌ان!</p>
+ <label>رنگ چشم‌های من چی می‌شه؟</label>
+ <div class="mini-options" data-extra="eyes">
+  <button class="mini-opt" data-v="قهوه‌ای شکلاتی">🤎 قهوه‌ای شکلاتی</button>
+  <button class="mini-opt" data-v="آبی آسمونی">🩵 آبی آسمونی</button>
+  <button class="mini-opt" data-v="سبز زیتونی">💚 سبز زیتونی</button>
+  <button class="mini-opt" data-v="هر رنگی، فقط خوشگل">✨ هر رنگی، فقط خوشگل</button>
+ </div>
+ <label>موهام چه مدلی می‌شه؟</label>
+ <div class="mini-options" data-extra="hair">
+  <button class="mini-opt" data-v="فرفری و فنری">🌀 فرفری و فنری</button>
+  <button class="mini-opt" data-v="صاف و لَخت">🌙 صاف و لَخت</button>
+  <button class="mini-opt" data-v="پرپشت و پفکی">☁️ پرپشت و پفکی</button>
+  <button class="mini-opt" data-v="فعلاً کلاه می‌ذارم">🧢 فعلاً کلاه می‌ذارم</button>
+ </div>
+</section>
+
+<section class="card">
+ <div class="kicker">مرحله پنجم · پیام از آینده</div>
+ <h3>💌 یه نامه برای روزی که بزرگ شدم</h3>
+ <p class="smallprint">یه جمله یا آرزو برای من بنویس؛ شاید روز تولدم بخونمش!</p>
+ <textarea id="letter" maxlength="240" placeholder="نی‌نی جان، امیدوارم وقتی بزرگ شدی..."></textarea>
+</section>
+
+<section class="card">
+ <div class="kicker">مرحله ششم · پرونده برادر بزرگ‌تر</div>
+ <h3>👑 امیر ارسلان، آماده‌ای؟</h3>
+ <p class="smallprint">به نظرت امیر ارسلان اولین هدیه‌اش به من چی می‌ده؟</p>
+ <div class="mini-options" data-extra="gift">
+  <button class="mini-opt" data-v="ماشین یا اسباب‌بازی">🚗 ماشین یا اسباب‌بازی</button>
+  <button class="mini-opt" data-v="عروسک یا خرس">🧸 عروسک یا خرس</button>
+  <button class="mini-opt" data-v="کتاب قصه">📚 کتاب قصه</button>
+  <button class="mini-opt" data-v="یه بغل محکم">🤗 یه بغل محکم</button>
+ </div>
+ <label>فکر می‌کنی امیر ارسلان چه لقبی بهم می‌ده؟</label>
+ <div class="mini-options" data-extra="nickname">
+  <button class="mini-opt" data-v="فسقلی">🐣 فسقلی</button>
+  <button class="mini-opt" data-v="رفیق همیشگی">🤝 رفیق همیشگی</button>
+  <button class="mini-opt" data-v="شیطونک">😈 شیطونک</button>
+  <button class="mini-opt" data-v="خانم/آقای رئیس">👑 خانم/آقای رئیس</button>
+ </div>
+</section>
+
+<section class="card">
+ <div class="kicker">مرحله هفتم · گردونه شانس</div>
+ <h3>🎡 گردونه لقب خانوادگی</h3>
+ <p class="smallprint">بچرخون ببین نی‌نی چه لقبی برات انتخاب می‌کنه!</p>
+ <div class="wheel-wrap">
+  <div class="wheel-pointer">▼</div>
+  <div class="wheel" id="wheel"></div>
+  <button class="btn" id="spin" type="button">بچرخون ببین چی می‌شم! 🎉</button>
+  <div class="wheel-result" id="wheelResult">منتظر یه لقب بامزه باش...</div>
+ </div>
+</section>
+
+<section class="card">
+ <div class="kicker">سورپرایز نهایی · روز افشای راز</div>
+ <h3>🎊 پرده‌برداری از راز نی‌نی</h3>
+ <p class="smallprint">این بخش بعد از مشخص شدن جنسیت فعال می‌شه. صاحب سایت باید مقدار REVEALED_GENDER رو در فایل تنظیم کنه و دوباره منتشرش کنه.</p>
+ <div class="reveal-panel" id="grandReveal">
+  <div class="reveal-emoji" id="grandRevealEmoji">🎉</div>
+  <h2 id="grandRevealTitle">یه خبر کوچولو داریم!</h2>
+  <p id="grandRevealText"></p>
+  <div style="font-size:30px"><span class="confetti">🎊</span> 🎈 <span class="confetti">✨</span> 🎈</div>
+ </div>
+ <p class="smallprint" id="revealWaiting">راز هنوز پیش خود نی‌نیه... 🤫</p>
+</section>
+
+<section class="card">
+ <div class="kicker">اتاق فرمان خانواده</div>
+ <h3>📊 آمار حدس‌ها</h3>
+ <div class="stats"><div class="stat"><b id="girls">۰</b><span>🎀 حدس دختر</span></div><div class="stat blue"><b id="boys">۰</b><span>🩵 حدس پسر</span></div></div>
+ <div class="bar"><div class="pink" id="girlbar" style="width:50%"></div><div class="blue" id="boybar" style="width:50%"></div></div>
+ <div class="legend"><span>🎀 دختر <b id="girlpct">۰٪</b></span><span>🩵 پسر <b id="boypct">۰٪</b></span></div>
+</section>
+
+<section class="card">
+ <div class="kicker">تالار افتخارات</div>
+ <h3>🏆 جدول امتیازات خانواده</h3>
+ <p class="smallprint">هر شرکت‌کننده با تکمیل بازی و ثبت حدس امتیاز می‌گیرد. بعد از مشخص شدن جنسیت، امتیاز حدس درست هم اضافه می‌شود.</p>
+ <div class="ranking" id="ranking"><div class="empty">هنوز کسی وارد بازی نشده؛ جای نفر اول خالیه! 🥇</div></div>
+ <div class="result" id="reveal">
+  <div class="big" id="revealEmoji">🎉</div><strong id="revealTitle">راز نی‌نی فاش شد!</strong><span id="revealText"></span>
+ </div>
+</section>
+<footer>ساخته‌شده با عشق برای نی‌نی جدید خانواده 💗🩵<br>امیر ارسلان، آماده‌ای برای یه هم‌بازی تازه؟ 🧸</footer>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script>
+/* برای انتشار مشترک، راهنمای README را اجرا و این دو مقدار را پر کنید. */
+const SUPABASE_URL = "YOUR_SUPABASE_PROJECT_URL";
+const SUPABASE_ANON_KEY = "YOUR_SUPABASE_ANON_KEY";
+/* پس از تولد، مقدار را به "دختر" یا "پسر" تغییر دهید و دوباره سایت را منتشر کنید. */
+const REVEALED_GENDER = "";
+const online = SUPABASE_URL.startsWith("https://") && !SUPABASE_URL.includes("YOUR_") && !SUPABASE_ANON_KEY.includes("YOUR_");
+const db = online && window.supabase ? window.supabase.createClient(SUPABASE_URL,SUPABASE_ANON_KEY) : null;
+const $=id=>document.getElementById(id);let guess="";let answers={};let localRows=JSON.parse(localStorage.getItem("nini_demo_votes")||"[]");
+function fa(n){return new Intl.NumberFormat("fa-IR").format(n)}
+document.querySelectorAll(".options").forEach(group=>group.querySelectorAll(".opt").forEach(btn=>btn.addEventListener("click",()=>{
+ const q=group.dataset.q;answers[q]=btn.dataset.v;group.querySelectorAll(".opt").forEach(x=>x.classList.remove("selected"));btn.classList.add("selected");
+ const done=Object.keys(answers).length;$("progress").querySelectorAll("span").forEach((s,i)=>s.classList.toggle("done",i<done));
+})));
+document.querySelectorAll(".bigchoice").forEach(btn=>btn.addEventListener("click",()=>{guess=btn.dataset.guess;document.querySelectorAll(".bigchoice").forEach(x=>x.classList.remove("selected"));btn.classList.add("selected")}));
+function escapeButton(id,phrases){const b=$(id),zone=b.parentElement;let tries=0;b.addEventListener("click",()=>{tries++;const maxX=Math.max(0,zone.clientWidth-b.offsetWidth-12),maxY=Math.max(24,zone.clientHeight-b.offsetHeight-5);b.style.right="auto";b.style.left=Math.floor(Math.random()*maxX)+"px";b.style.top=(24+Math.floor(Math.random()*(maxY-23)))+"px";b.textContent=phrases[(tries-1)%phrases.length];b.style.transform="rotate("+(Math.random()*18-9)+"deg)";if(tries===4)b.textContent="باشه بابا! برو حدست رو ثبت کن 😂"});}
+escapeButton("runner1",["نه نه! نزدیک نشو! 🏃","من یه راز بزرگم! 🙊","اوه! دوباره فرار کردم! 💨","باشه بابا! برو حدست رو ثبت کن 😂"]);
+escapeButton("runner2",["اژدها هم نیستم! 🐉","گرفتی؟ نه که نگرفتی! 😜","من از اینجا رفتم! 💨","بی‌خیال، همون دختر یا پسر رو بزن! 😆"]);
+
+const extraAnswers={};
+document.querySelectorAll(".mini-options").forEach(group=>group.querySelectorAll(".mini-opt").forEach(btn=>btn.addEventListener("click",()=>{
+ const key=group.dataset.extra;extraAnswers[key]=btn.dataset.v;
+ group.querySelectorAll(".mini-opt").forEach(x=>x.classList.remove("selected"));btn.classList.add("selected");
+})));
+const titles=["کارآگاه کوچولو 🕵️","خاله/عموی VIP 💎","قهرمان بغل‌ها 🤗","فرمانده پوشک‌ها 🍼","جادوگر قصه‌ها 🪄","شریک شیطنت امیرارسلان 😈","نگهبان خواب نی‌نی 🌙","عکاس رسمی کوچولو 📸"];
+let wheelTitle="";
+$("spin").addEventListener("click",()=>{
+ const wheel=$("wheel");$("spin").disabled=true;wheel.classList.remove("spinning");void wheel.offsetWidth;wheel.classList.add("spinning");
+ const result=titles[Math.floor(Math.random()*titles.length)];wheelTitle=result;
+ setTimeout(()=>{$("wheelResult").textContent="لقب مخصوص تو: "+result;$("spin").disabled=false;},3000);
+});
+
+function render(rows){
+ const g=rows.filter(x=>x.guess==="دختر").length,b=rows.filter(x=>x.guess==="پسر").length,t=g+b,gp=t?Math.round(g/t*100):0,bp=t?100-gp:0;
+ $("girls").textContent=fa(g);$("boys").textContent=fa(b);$("girlbar").style.width=gp+"%";$("boybar").style.width=bp+"%";$("girlpct").textContent=fa(gp)+"٪";$("boypct").textContent=fa(bp)+"٪";
+ const scores=rows.map(r=>({...r,points:20+(r.guess===REVEALED_GENDER&&REVEALED_GENDER?100:0)})).sort((a,b)=>b.points-a.points);
+ $("ranking").innerHTML="";if(!scores.length){$("ranking").innerHTML='<div class="empty">هنوز کسی وارد بازی نشده؛ جای نفر اول خالیه! 🥇</div>'}
+ scores.slice(0,10).forEach((r,i)=>{const div=document.createElement("div");div.className="rank";const medal=document.createElement("span");medal.className="medal";medal.textContent=["🥇","🥈","🥉"][i]||"🌟";const name=document.createElement("span");name.className="rankname";name.textContent=r.guest+" · "+(r.guess==="دختر"?"🎀":"🩵");const pts=document.createElement("span");pts.className="rankpoints";pts.textContent=fa(r.points)+" امتیاز";div.append(medal,name,pts);$("ranking").append(div)});
+ if(REVEALED_GENDER){$("reveal").style.display="block";$("revealEmoji").textContent=REVEALED_GENDER==="دختر"?"🎀👑":"🩵🧸";$("revealTitle").textContent=REVEALED_GENDER==="دختر"?"یه پرنسس کوچولو در راهه!":"یه آقاپسر کوچولو در راهه!";$("revealText").textContent="به همه‌ی کسانی که درست حدس زدن ۱۰۰ امتیاز اضافه شد."}
+}
+async function load(){
+ if(db){const {data,error}=await db.from("baby_votes").select("guest,guess,baby_name,answers,created_at");if(!error)render(data||[]);else console.warn(error)}
+ else render(localRows);
+}
+function toast(s,bad=false){$("toast").textContent=s;$("toast").style.display="block";$("toast").style.background=bad?"#fff0f0":"#effaf1";$("toast").style.color=bad?"#a34f55":"#477c55"}
+$("submit").addEventListener("click",async()=>{
+ const guest=$("guest").value.trim(),baby_name=$("babyname").value.trim();
+ if(!guest){toast("اول اسمت رو بنویس تا بدونم کی هستی! 🌸",true);$("guest").focus();return}
+ if(Object.keys(answers).length<5){toast("نی‌نی هنوز منتظر جواب همه‌ی ۵ تا سؤالشه! 💌",true);return}
+ if(!guess){toast("حدس نهایی دختر یا پسر رو هم انتخاب کن! 🎀🩵",true);return}
+ $("submit").disabled=true;
+ const row={guest,baby_name,guess,answers:{...answers,...extraAnswers,letter:$("letter").value.trim(),wheel_title:wheelTitle}};
+ if(db){const {error}=await db.from("baby_votes").insert(row);if(error){toast("ثبت نشد؛ اتصال یا تنظیمات دیتابیس رو بررسی کن.",true);$("submit").disabled=false;return}}
+ else{localRows.push(row);localStorage.setItem("nini_demo_votes",JSON.stringify(localRows))}
+ $("result").style.display="block";toast("پرونده‌ات با موفقیت ثبت شد! مرسی از بازی قشنگت 💗");
+ $("submit").textContent="پرونده ثبت شد ✓";await load();
+});
+
+if(REVEALED_GENDER){
+ $("grandReveal").style.display="block";$("revealWaiting").style.display="none";
+ $("grandRevealEmoji").textContent=REVEALED_GENDER==="دختر"?"🎀👑🩷":"🩵🧸🎉";
+ $("grandRevealTitle").textContent=REVEALED_GENDER==="دختر"?"یه پرنسس کوچولو در راهه!":"یه آقاپسر کوچولوی دوست‌داشتنی در راهه!";
+ $("grandRevealText").textContent=REVEALED_GENDER==="دختر"?"خانواده آماده‌ی ورود یه فرشته‌ی کوچولو باشه!":"خانواده آماده‌ی ورود یه شیطونک دوست‌داشتنی باشه!";
+}
+load();if(db)setInterval(load,15000);
+</script>
+</body></html>
